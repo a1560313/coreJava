@@ -1,4 +1,4 @@
-package info._7chapters.phani;
+package com.excel.phani;
 
 class BooleanLogicalOperator {
 	public static void main(String args[]) {
