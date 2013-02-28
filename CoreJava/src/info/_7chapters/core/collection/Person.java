@@ -12,7 +12,7 @@ class Person implements Comparable {
 	}
 	
 	public int compareTo(Object d) {
-		return place.compareTo(((Person)d).getPlace());
+		return name.compareTo(((Person)d).getName());
 	}
 	public String getName() {
 		return name;
@@ -33,9 +33,9 @@ class Person implements Comparable {
 		this.profession = profession;
 	}
 
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		return (name.hashCode() + place.hashCode() * 45)+ 56;
-	}
+//	@Override
+//	public int hashCode() {
+//		// TODO Auto-generated method stub
+//		return (name.hashCode() + place.hashCode() * 45)+ 56;
+//	}
 }
